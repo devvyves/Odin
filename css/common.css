@@ -332,14 +332,6 @@ footer {
 .footer-container {
   width: 100%;
 }
-@-webkit-keyframes marquee {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-50%);
-  }
-}
 @keyframes marquee {
   from {
     transform: translateX(0);
@@ -363,8 +355,7 @@ footer {
   font-weight: 700;
 }
 .footer-container .footer-text-area .footer-marque:nth-child(1) {
-  -webkit-animation: marquee 7000ms linear infinite;
-          animation: marquee 7000ms linear infinite;
+  animation: marquee 7000ms linear infinite;
 }
 .footer-container .footer-bottom-area {
   display: flex;
@@ -401,18 +392,11 @@ footer {
   font-size: 20px;
   color: var(--black);
 }
-.footer-container .footer-bottom-area .footer-letter-box form .footer-form-spot .mail-in:-ms-input-placeholder {
-  font-size: 20px;
-  color: var(--black);
-}
 .footer-container .footer-bottom-area .footer-letter-box form .footer-form-spot .mail-in::placeholder {
   font-size: 20px;
   color: var(--black);
 }
 .footer-container .footer-bottom-area .footer-letter-box form .footer-form-spot .mail-in:hover::-moz-placeholder {
-  color: #ddd;
-}
-.footer-container .footer-bottom-area .footer-letter-box form .footer-form-spot .mail-in:hover:-ms-input-placeholder {
   color: #ddd;
 }
 .footer-container .footer-bottom-area .footer-letter-box form .footer-form-spot .mail-in:hover::placeholder {
