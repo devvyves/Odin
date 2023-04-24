@@ -240,10 +240,10 @@
 .fast-area02 .fast-box02 .fast-box-area .fast-text span {
   display: block;
   position: relative;
-  font-size: 40px;
+  font-size: 60px;
   font-weight: 700;
   letter-spacing: -1px;
-  line-height: 45px;
+  line-height: 1;
 }
 .fast-area02 .fast-box02 .fast-box-area .fast-text span:after {
   content: "";
